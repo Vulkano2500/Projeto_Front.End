@@ -3,11 +3,44 @@
     scroll-behavior: smooth;
     align-content: center;
     align-items: center;
+    color: white;
+    margin: 0px, 0px;
+}
+
+body {
+    background-image: url(/img/juniperphoton-iLQx4PNG29g-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+}
+
+h2{
+    text-align: justify, center;
+    text-shadow: 10px rgba(8, 1, 39, 0.603);
+}
+
+div{
+    box-shadow: #01032283;
 }
 
 #perfil{
-    height: 200px;
-    width: 200px;
-    position: relative;
+   text-align: justify,center;
+}
 
+#imgperfil{
+    padding: 0, 0, 0, 0;
+    position: static;
+    border-image: 5px;
+}
+
+.header, .footer { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: black; 
+}
+
+.header, .footer a{
+    align-items: initial;
 }
