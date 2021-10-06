@@ -1,6 +1,5 @@
 *{
     font-family: 'Montserrat', sans-serif;
-    scroll-behavior: smooth;
     align-content: center;
     align-items: center;
     color: white;
@@ -15,14 +14,39 @@ body {
    
 }
 
-h2{
-    text-align: justify, center;
-    text-shadow: 10px rgba(8, 1, 39, 0.603);
+#sobremi{
+    text-size-adjust: 23px;
 }
 
-div{
-    box-shadow: #01032283;
+h2{
+    text-align: justify, center;
+    text-shadow: 10px rgba(4, 1, 19, 0.726);
 }
+
+
+button {
+    position: relative;
+    background: linear-gradient(90deg, transparent, #ff0000 20%, #ff0000 80%, transparent);
+    border: none;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 4px;
+    transition: transform .15s linear;
+   }
+   
+   button:hover {
+    transform: scale(1.1, 0.9);
+   }
+   
+   button:active {
+    font-size: 13px;
+   }
+
+   a{
+       text-decoration-line: none;
+   }
 
 #perfil{
    text-align: justify,center;
@@ -39,8 +63,4 @@ div{
     align-items: center; 
     justify-content: center; 
     background-color: black; 
-}
-
-.header, .footer a{
-    align-items: initial;
 }
