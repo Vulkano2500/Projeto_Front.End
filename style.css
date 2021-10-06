@@ -1,4 +1,13 @@
 *{
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    align-content: center;
+    align-items: center;
+}
+
+#perfil{
+    height: 200px;
+    width: 200px;
+    position: relative;
+
 }
